@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHOBHA MEDICAL STORE</title>
+    <title>SHOBHA MEDICAL STORE - Your Trusted Medical Partner</title>
+    <meta name="description"
+        content="Shobha Medical Store - Quality medicines, healthcare products, and trusted pharmacy services in your neighborhood.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +15,7 @@
         rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for Icons (optional, using emojis mostly but good for social icons) -->
+    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
@@ -21,14 +23,14 @@
 
     <!-- Header -->
     <header class="header">
-        <!-- Main Header Row: Logo + Search + Cart + WhatsApp (all in one row on desktop) -->
+        <!-- Main Header Row -->
         <div class="container header-main">
             <div class="logo-section">
                 <h1>SHOBHA MEDICAL STORE</h1>
                 <p class="subtitle">Your Trusted Medical Partner</p>
             </div>
 
-            <!-- Search Bar (visible on desktop in header row) -->
+            <!-- Search Bar -->
             <div class="search-bar desktop-search">
                 <input type="text" id="search-input-desktop" placeholder="Search for medicines...">
                 <button id="search-btn-desktop"><i class="fas fa-search"></i></button>
@@ -48,7 +50,7 @@
             </div>
         </div>
 
-        <!-- Mobile Search Row (only visible on mobile) -->
+        <!-- Mobile Search Row -->
         <div class="container mobile-search-row">
             <div class="search-bar">
                 <input type="text" id="search-input" placeholder="Search for medicines...">
@@ -59,46 +61,319 @@
         <!-- Desktop Navigation Bar with All Categories -->
         <nav class="desktop-nav">
             <div class="container nav-container">
-                <a href="#otc" class="nav-btn">💊 OTC Medicines</a>
-                <a href="#rx" class="nav-btn">📋 Prescription</a>
-                <a href="#cold" class="nav-btn">🤧 Cold & Cough</a>
-                <a href="#diabetes" class="nav-btn">🩸 Diabetes & BP</a>
-                <a href="#skin" class="nav-btn">✨ Skin Care</a>
-                <a href="#ayurveda" class="nav-btn">🌬️ Respiratory</a>
-                <a href="#surgical" class="nav-btn">🏥 Surgical</a>
-                <a href="#baby" class="nav-btn">👶 Baby Care</a>
-                <a href="#health" class="nav-btn">💪 Supplements</a>
+                <a href="otc.html" class="nav-btn">💊 OTC Medicines</a>
+                <a href="prescription.html" class="nav-btn">📋 Prescription</a>
+                <a href="cold.html" class="nav-btn">🤧 Cold & Cough</a>
+                <a href="diabetes.html" class="nav-btn">🩸 Diabetes & BP</a>
+                <a href="skin.html" class="nav-btn">✨ Skin Care</a>
+                <a href="respiratory.html" class="nav-btn">🌬️ Respiratory</a>
+                <a href="surgical.html" class="nav-btn">🏥 Surgical</a>
+                <a href="baby.html" class="nav-btn">👶 Baby Care</a>
+                <a href="supplements.html" class="nav-btn">💪 Supplements</a>
             </div>
         </nav>
 
         <!-- Mobile Navigation Dropdown -->
         <nav class="mobile-nav" id="mobile-nav">
             <ul>
-                <li><a href="#otc" class="nav-link">💊 OTC Medicines</a></li>
-                <li><a href="#rx" class="nav-link">📋 Prescription</a></li>
-                <li><a href="#cold" class="nav-link">🤧 Cold & Cough</a></li>
-                <li><a href="#diabetes" class="nav-link">🩸 Diabetes & BP</a></li>
-                <li><a href="#skin" class="nav-link">✨ Skin Care</a></li>
-                <li><a href="#ayurveda" class="nav-link">🌬️ Respiratory</a></li>
-                <li><a href="#surgical" class="nav-link">🏥 Surgical</a></li>
-                <li><a href="#baby" class="nav-link">👶 Baby Care</a></li>
-                <li><a href="#health" class="nav-link">💪 Supplements</a></li>
+                <li><a href="otc.html" class="nav-link">💊 OTC Medicines</a></li>
+                <li><a href="prescription.html" class="nav-link">📋 Prescription</a></li>
+                <li><a href="cold.html" class="nav-link">🤧 Cold & Cough</a></li>
+                <li><a href="diabetes.html" class="nav-link">🩸 Diabetes & BP</a></li>
+                <li><a href="skin.html" class="nav-link">✨ Skin Care</a></li>
+                <li><a href="respiratory.html" class="nav-link">🌬️ Respiratory</a></li>
+                <li><a href="surgical.html" class="nav-link">🏥 Surgical</a></li>
+                <li><a href="baby.html" class="nav-link">👶 Baby Care</a></li>
+                <li><a href="supplements.html" class="nav-link">💪 Supplements</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero / Intro (Optional but good for aesthetics) -->
+    <!-- Hero Section with Advertisement -->
     <section class="hero">
         <div class="container">
-            <h2>Quality Medicines at Your Doorstep</h2>
-            <p>Genuine Products | Fast Service | Trusted Care</p>
+            <div class="hero-content">
+                <h2>Quality Medicines at Your Doorstep</h2>
+                <p>Genuine Products | Fast Service | Trusted Care</p>
+                <a href="products.html" class="hero-btn">
+                    <i class="fas fa-pills"></i> Browse All Medicines
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Product Categories Loop Container -->
-    <main id="main-content" class="container">
-        <!-- Categories will be injected here by JS -->
-    </main>
+    <!-- Advertisement Slider -->
+    <section class="ads-section">
+        <div class="container">
+            <div class="ads-slider">
+                <div class="ad-card">
+                    <div class="ad-icon">🎉</div>
+                    <h3>Flat 15% OFF</h3>
+                    <p>On all prescription medicines</p>
+                    <span class="ad-badge">Limited Time</span>
+                </div>
+                <div class="ad-card">
+                    <div class="ad-icon">🚚</div>
+                    <h3>Free Delivery</h3>
+                    <p>On orders above ₹500</p>
+                    <span class="ad-badge">All Orders</span>
+                </div>
+                <div class="ad-card">
+                    <div class="ad-icon">💊</div>
+                    <h3>100% Genuine</h3>
+                    <p>All medicines are authentic</p>
+                    <span class="ad-badge">Guaranteed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories-section">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="category-grid">
+                <a href="otc.html" class="category-card">
+                    <div class="category-icon">💊</div>
+                    <h3>OTC Medicines</h3>
+                    <p>60+ Products</p>
+                </a>
+                <a href="prescription.html" class="category-card">
+                    <div class="category-icon">📋</div>
+                    <h3>Prescription</h3>
+                    <p>10+ Products</p>
+                </a>
+                <a href="cold.html" class="category-card">
+                    <div class="category-icon">🤧</div>
+                    <h3>Cold & Cough</h3>
+                    <p>7+ Products</p>
+                </a>
+                <a href="diabetes.html" class="category-card">
+                    <div class="category-icon">🩸</div>
+                    <h3>Diabetes & BP</h3>
+                    <p>7+ Products</p>
+                </a>
+                <a href="skin.html" class="category-card">
+                    <div class="category-icon">✨</div>
+                    <h3>Skin Care</h3>
+                    <p>6+ Products</p>
+                </a>
+                <a href="respiratory.html" class="category-card">
+                    <div class="category-icon">🌬️</div>
+                    <h3>Respiratory</h3>
+                    <p>7+ Products</p>
+                </a>
+                <a href="surgical.html" class="category-card">
+                    <div class="category-icon">🏥</div>
+                    <h3>Surgical Items</h3>
+                    <p>5+ Products</p>
+                </a>
+                <a href="baby.html" class="category-card">
+                    <div class="category-icon">👶</div>
+                    <h3>Baby Care</h3>
+                    <p>5+ Products</p>
+                </a>
+                <a href="supplements.html" class="category-card">
+                    <div class="category-icon">💪</div>
+                    <h3>Supplements</h3>
+                    <p>7+ Products</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Shobha Medical Store</h2>
+                    <p>Welcome to <strong>Shobha Medical Store</strong>, your trusted neighborhood pharmacy serving the
+                        community with quality healthcare products for over 15 years.</p>
+                    <p>We are committed to providing genuine medicines, healthcare products, and personalized
+                        pharmaceutical services to our valued customers. Our experienced pharmacists are always ready to
+                        help you with your health queries.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10K+</span>
+                            <span class="stat-label">Happy Customers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-icon-box">
+                        <i class="fas fa-clinic-medical"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-prescription-bottle-medical"></i>
+                    </div>
+                    <h3>Prescription Medicines</h3>
+                    <p>Get all your prescribed medicines with proper guidance and dosage instructions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Home Delivery</h3>
+                    <p>Free home delivery on orders above ₹500. Quick and safe delivery to your doorstep.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Expert Consultation</h3>
+                    <p>Our experienced pharmacists are available to answer your health-related queries.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp Ordering</h3>
+                    <p>Order medicines easily through WhatsApp. Share your prescription and get instant quotes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Health Checkup Support</h3>
+                    <p>BP monitoring, blood sugar testing, and basic health checkup support available.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Extended Hours</h3>
+                    <p>Open from 8 AM to 10 PM, 7 days a week for your convenience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="mission-section" id="mission">
+        <div class="container">
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <div class="mission-icon">🎯</div>
+                    <h3>Our Mission</h3>
+                    <p>To provide affordable, genuine medicines and healthcare products to every household, ensuring the
+                        health and well-being of our community.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">👁️</div>
+                    <h3>Our Vision</h3>
+                    <p>To become the most trusted pharmacy in the region, known for quality products, excellent service,
+                        and customer satisfaction.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">💎</div>
+                    <h3>Our Values</h3>
+                    <p>Integrity, Quality, Customer Care, and Community Health are the core values that guide everything
+                        we do.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="why-us-grid">
+                <div class="why-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>100% Genuine Medicines</span>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Best Prices Guaranteed</span>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Expert Pharmacist Guidance</span>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Fast Home Delivery</span>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>WhatsApp Order Support</span>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Wide Product Range</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Us / Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Our Address</h3>
+                        <p>Shobha Medical Store<br>
+                            Near Bus Stand, Main Road<br>
+                            Pune, Maharashtra - 411001</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Phone Number</h3>
+                        <p><a href="tel:+919028670610">+91 9028670610</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <p><a href="https://wa.me/919028670610" target="_blank">Chat on WhatsApp</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Opening Hours</h3>
+                        <p>Monday - Sunday<br>8:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.204827683789!2d73.85674231489485!3d18.516726087410876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0795b04c79d%3A0x8c0c4a0e4c0b6c0!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1621234567890!5m2!1sen!2sin"
+                        width="100%" height="350" style="border:0; border-radius: 12px;" allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Floating WhatsApp Button -->
     <a href="https://wa.me/919028670610" target="_blank" class="floating-whatsapp">
@@ -111,6 +386,16 @@
             <div class="footer-info">
                 <h3>SHOBHA MEDICAL STORE</h3>
                 <p><i class="fas fa-phone"></i> +91 9028670610</p>
+                <p><i class="fas fa-map-marker-alt"></i> Near Bus Stand, Pune</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
             <div class="disclaimer">
                 <p><em>Medicines will be dispensed only against valid prescription where required.</em></p>
@@ -129,7 +414,6 @@
                 <button class="close-cart" id="close-cart">&times;</button>
             </div>
             <div class="cart-items" id="cart-items">
-                <!-- Cart items will be injected here -->
                 <div class="empty-cart-msg">Your cart is empty</div>
             </div>
             <div class="cart-footer">
@@ -149,7 +433,7 @@
     </div>
 
     <!-- Script -->
-    <script src="script.js"></script>
+    <script src="home.js"></script>
 </body>
 
 </html>

@@ -1314,6 +1314,1622 @@ const storeData = [
                 desc: "Sugar testing strips for glucometer.",
                 uses: "Blood Glucose Monitoring",
                 storage: "Store cap closed tightly"
+            },
+            // Additional Diabetes & BP Medicines (100+)
+            // Anti-Diabetic Medicines
+            {
+                name: "Glycomet 500 SR",
+                image: "💊",
+                prescription: true,
+                composition: "Metformin 500mg SR",
+                unit: "Strip of 20",
+                quantity: "1 Strip",
+                mrp: 45,
+                discount: 12,
+                price: 40,
+                desc: "Sustained release diabetes medicine.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Glycomet GP 1",
+                image: "💊",
+                prescription: true,
+                composition: "Glimepiride 1mg + Metformin 500mg",
+                unit: "Strip of 15",
+                quantity: "1 Strip",
+                mrp: 118,
+                discount: 15,
+                price: 100,
+                desc: "Combination diabetes medicine.",
+                uses: "Type 2 Diabetes",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Glycomet GP 2",
+                image: "💊",
+                prescription: true,
+                composition: "Glimepiride 2mg + Metformin 500mg",
+                unit: "Strip of 15",
+                quantity: "1 Strip",
+                mrp: 135,
+                discount: 15,
+                price: 115,
+                desc: "Combination diabetes medicine.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Amaryl M1",
+                image: "💊",
+                prescription: true,
+                composition: "Glimepiride 1mg + Metformin 500mg",
+                unit: "Strip of 15",
+                quantity: "1 Strip",
+                mrp: 195,
+                discount: 12,
+                price: 172,
+                desc: "Premium diabetes combination.",
+                uses: "Type 2 Diabetes",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Amaryl M2",
+                image: "💊",
+                prescription: true,
+                composition: "Glimepiride 2mg + Metformin 500mg",
+                unit: "Strip of 15",
+                quantity: "1 Strip",
+                mrp: 225,
+                discount: 12,
+                price: 198,
+                desc: "Premium diabetes combination.",
+                uses: "Type 2 Diabetes",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Janumet 50/500",
+                image: "💊",
+                prescription: true,
+                composition: "Sitagliptin 50mg + Metformin 500mg",
+                unit: "Strip of 7",
+                quantity: "1 Strip",
+                mrp: 395,
+                discount: 10,
+                price: 356,
+                desc: "DPP-4 inhibitor combination.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Janumet 50/1000",
+                image: "💊",
+                prescription: true,
+                composition: "Sitagliptin 50mg + Metformin 1000mg",
+                unit: "Strip of 7",
+                quantity: "1 Strip",
+                mrp: 445,
+                discount: 10,
+                price: 401,
+                desc: "DPP-4 inhibitor combination.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Galvus Met 50/500",
+                image: "💊",
+                prescription: true,
+                composition: "Vildagliptin 50mg + Metformin 500mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 325,
+                discount: 12,
+                price: 286,
+                desc: "DPP-4 inhibitor with Metformin.",
+                uses: "Type 2 Diabetes",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Galvus Met 50/1000",
+                image: "💊",
+                prescription: true,
+                composition: "Vildagliptin 50mg + Metformin 1000mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 385,
+                discount: 12,
+                price: 339,
+                desc: "DPP-4 inhibitor with Metformin.",
+                uses: "Type 2 Diabetes",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Trajenta 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Linagliptin 5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 575,
+                discount: 10,
+                price: 518,
+                desc: "DPP-4 inhibitor for diabetes.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Gliclazide 80mg",
+                image: "💊",
+                prescription: true,
+                composition: "Gliclazide 80mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 65,
+                discount: 15,
+                price: 55,
+                desc: "Sulfonylurea for diabetes.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Diamicron MR 60",
+                image: "💊",
+                prescription: true,
+                composition: "Gliclazide 60mg MR",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 145,
+                discount: 12,
+                price: 128,
+                desc: "Modified release gliclazide.",
+                uses: "Type 2 Diabetes",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Glynase MF",
+                image: "💊",
+                prescription: true,
+                composition: "Glipizide 5mg + Metformin 500mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 85,
+                discount: 12,
+                price: 75,
+                desc: "Diabetes combination therapy.",
+                uses: "Type 2 Diabetes",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Pioglitazone 15mg",
+                image: "💊",
+                prescription: true,
+                composition: "Pioglitazone 15mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 95,
+                discount: 15,
+                price: 81,
+                desc: "Thiazolidinedione for diabetes.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Pioglitazone 30mg",
+                image: "💊",
+                prescription: true,
+                composition: "Pioglitazone 30mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 145,
+                discount: 15,
+                price: 123,
+                desc: "Thiazolidinedione for diabetes.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Acarbose 50mg",
+                image: "💊",
+                prescription: true,
+                composition: "Acarbose 50mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 85,
+                discount: 10,
+                price: 77,
+                desc: "Alpha-glucosidase inhibitor.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Voglibose 0.2mg",
+                image: "💊",
+                prescription: true,
+                composition: "Voglibose 0.2mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 75,
+                discount: 12,
+                price: 66,
+                desc: "Alpha-glucosidase inhibitor.",
+                uses: "Type 2 Diabetes",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Voglibose 0.3mg",
+                image: "💊",
+                prescription: true,
+                composition: "Voglibose 0.3mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 95,
+                discount: 12,
+                price: 84,
+                desc: "Alpha-glucosidase inhibitor.",
+                uses: "Type 2 Diabetes",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Dapagliflozin 10mg",
+                image: "💊",
+                prescription: true,
+                composition: "Dapagliflozin 10mg",
+                unit: "Strip of 14",
+                quantity: "1 Strip",
+                mrp: 495,
+                discount: 10,
+                price: 446,
+                desc: "SGLT2 inhibitor for diabetes.",
+                uses: "Type 2 Diabetes, Heart Failure",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Empagliflozin 10mg",
+                image: "💊",
+                prescription: true,
+                composition: "Empagliflozin 10mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 525,
+                discount: 10,
+                price: 473,
+                desc: "SGLT2 inhibitor for diabetes.",
+                uses: "Type 2 Diabetes, Heart Protection",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Empagliflozin 25mg",
+                image: "💊",
+                prescription: true,
+                composition: "Empagliflozin 25mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 595,
+                discount: 10,
+                price: 536,
+                desc: "SGLT2 inhibitor for diabetes.",
+                uses: "Type 2 Diabetes, Heart Protection",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Canagliflozin 100mg",
+                image: "💊",
+                prescription: true,
+                composition: "Canagliflozin 100mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 545,
+                discount: 12,
+                price: 480,
+                desc: "SGLT2 inhibitor for diabetes.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Teneligliptin 20mg",
+                image: "💊",
+                prescription: true,
+                composition: "Teneligliptin 20mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 195,
+                discount: 15,
+                price: 166,
+                desc: "DPP-4 inhibitor for diabetes.",
+                uses: "Type 2 Diabetes",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Tenepure M 500",
+                image: "💊",
+                prescription: true,
+                composition: "Teneligliptin 20mg + Metformin 500mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 225,
+                discount: 15,
+                price: 191,
+                desc: "DPP-4 inhibitor combination.",
+                uses: "Type 2 Diabetes",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Mixtard 30 Insulin",
+                image: "💉",
+                prescription: true,
+                composition: "Human Insulin 30/70",
+                unit: "Vial",
+                quantity: "10ml",
+                mrp: 185,
+                discount: 5,
+                price: 176,
+                desc: "Premixed human insulin.",
+                uses: "Diabetes (Type 1 & 2)",
+                storage: "Store in refrigerator 2-8°C"
+            },
+            {
+                name: "Actrapid Insulin",
+                image: "💉",
+                prescription: true,
+                composition: "Regular Human Insulin",
+                unit: "Vial",
+                quantity: "10ml",
+                mrp: 175,
+                discount: 5,
+                price: 166,
+                desc: "Short-acting human insulin.",
+                uses: "Diabetes",
+                storage: "Store in refrigerator 2-8°C"
+            },
+            {
+                name: "Insulatard Insulin",
+                image: "💉",
+                prescription: true,
+                composition: "Isophane Insulin",
+                unit: "Vial",
+                quantity: "10ml",
+                mrp: 175,
+                discount: 5,
+                price: 166,
+                desc: "Intermediate-acting insulin.",
+                uses: "Diabetes",
+                storage: "Store in refrigerator 2-8°C"
+            },
+            {
+                name: "Lantus Solostar",
+                image: "💉",
+                prescription: true,
+                composition: "Insulin Glargine 100 IU/ml",
+                unit: "Pen",
+                quantity: "3ml Pen",
+                mrp: 795,
+                discount: 5,
+                price: 755,
+                desc: "Long-acting insulin pen.",
+                uses: "Diabetes",
+                storage: "Store in refrigerator"
+            },
+            {
+                name: "Novorapid Flexpen",
+                image: "💉",
+                prescription: true,
+                composition: "Insulin Aspart",
+                unit: "Pen",
+                quantity: "3ml Pen",
+                mrp: 695,
+                discount: 5,
+                price: 660,
+                desc: "Rapid-acting insulin pen.",
+                uses: "Diabetes",
+                storage: "Store in refrigerator 2-8°C"
+            },
+            {
+                name: "Humalog Kwikpen",
+                image: "💉",
+                prescription: true,
+                composition: "Insulin Lispro",
+                unit: "Pen",
+                quantity: "3ml Pen",
+                mrp: 725,
+                discount: 5,
+                price: 689,
+                desc: "Rapid-acting insulin pen.",
+                uses: "Diabetes",
+                storage: "Store in refrigerator"
+            },
+            // Blood Pressure Medicines
+            {
+                name: "Amlodipine 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Amlodipine 5mg",
+                unit: "Strip of 14",
+                quantity: "1 Strip",
+                mrp: 45,
+                discount: 15,
+                price: 38,
+                desc: "Calcium channel blocker for BP.",
+                uses: "Hypertension, Angina",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Amlodipine 10mg",
+                image: "💊",
+                prescription: true,
+                composition: "Amlodipine 10mg",
+                unit: "Strip of 14",
+                quantity: "1 Strip",
+                mrp: 75,
+                discount: 15,
+                price: 64,
+                desc: "Calcium channel blocker for BP.",
+                uses: "Hypertension, Angina",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Atenolol 50mg",
+                image: "💊",
+                prescription: true,
+                composition: "Atenolol 50mg",
+                unit: "Strip of 14",
+                quantity: "1 Strip",
+                mrp: 35,
+                discount: 12,
+                price: 31,
+                desc: "Beta blocker for BP.",
+                uses: "Hypertension, Angina",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Metoprolol 25mg",
+                image: "💊",
+                prescription: true,
+                composition: "Metoprolol 25mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 42,
+                discount: 15,
+                price: 36,
+                desc: "Beta blocker for BP and heart.",
+                uses: "Hypertension, Heart conditions",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Metoprolol 50mg",
+                image: "💊",
+                prescription: true,
+                composition: "Metoprolol 50mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 65,
+                discount: 15,
+                price: 55,
+                desc: "Beta blocker for BP and heart.",
+                uses: "Hypertension, Heart conditions",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Nebivolol 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Nebivolol 5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 165,
+                discount: 12,
+                price: 145,
+                desc: "Third gen beta blocker.",
+                uses: "Hypertension",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Nebivolol 2.5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Nebivolol 2.5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 125,
+                discount: 12,
+                price: 110,
+                desc: "Third gen beta blocker.",
+                uses: "Hypertension",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Bisoprolol 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Bisoprolol 5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 115,
+                discount: 12,
+                price: 101,
+                desc: "Selective beta blocker.",
+                uses: "Hypertension, Heart failure",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Carvedilol 6.25mg",
+                image: "💊",
+                prescription: true,
+                composition: "Carvedilol 6.25mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 75,
+                discount: 12,
+                price: 66,
+                desc: "Alpha-beta blocker.",
+                uses: "Hypertension, Heart failure",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Carvedilol 12.5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Carvedilol 12.5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 95,
+                discount: 12,
+                price: 84,
+                desc: "Alpha-beta blocker.",
+                uses: "Hypertension, Heart failure",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Carvedilol 25mg",
+                image: "💊",
+                prescription: true,
+                composition: "Carvedilol 25mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 135,
+                discount: 12,
+                price: 119,
+                desc: "Alpha-beta blocker.",
+                uses: "Hypertension, Heart failure",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Losartan 50mg",
+                image: "💊",
+                prescription: true,
+                composition: "Losartan 50mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 85,
+                discount: 15,
+                price: 72,
+                desc: "ARB for blood pressure.",
+                uses: "Hypertension, Diabetic nephropathy",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Losartan H",
+                image: "💊",
+                prescription: true,
+                composition: "Losartan 50mg + HCTZ 12.5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 115,
+                discount: 15,
+                price: 98,
+                desc: "ARB with diuretic combination.",
+                uses: "Hypertension",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Telmisartan 40mg",
+                image: "💊",
+                prescription: true,
+                composition: "Telmisartan 40mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 95,
+                discount: 15,
+                price: 81,
+                desc: "ARB for blood pressure.",
+                uses: "Hypertension",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Telmisartan 80mg",
+                image: "💊",
+                prescription: true,
+                composition: "Telmisartan 80mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 145,
+                discount: 15,
+                price: 123,
+                desc: "ARB for blood pressure.",
+                uses: "Hypertension",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Olmesartan 20mg",
+                image: "💊",
+                prescription: true,
+                composition: "Olmesartan 20mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 145,
+                discount: 12,
+                price: 128,
+                desc: "ARB for blood pressure.",
+                uses: "Hypertension",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Olmesartan 40mg",
+                image: "💊",
+                prescription: true,
+                composition: "Olmesartan 40mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 195,
+                discount: 12,
+                price: 172,
+                desc: "ARB for blood pressure.",
+                uses: "Hypertension",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Valsartan 80mg",
+                image: "💊",
+                prescription: true,
+                composition: "Valsartan 80mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 165,
+                discount: 12,
+                price: 145,
+                desc: "ARB for blood pressure.",
+                uses: "Hypertension, Heart failure",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Valsartan 160mg",
+                image: "💊",
+                prescription: true,
+                composition: "Valsartan 160mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 225,
+                discount: 12,
+                price: 198,
+                desc: "ARB for blood pressure.",
+                uses: "Hypertension, Heart failure",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Irbesartan 150mg",
+                image: "💊",
+                prescription: true,
+                composition: "Irbesartan 150mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 175,
+                discount: 12,
+                price: 154,
+                desc: "ARB for blood pressure.",
+                uses: "Hypertension, Diabetic nephropathy",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Ramipril 2.5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Ramipril 2.5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 75,
+                discount: 15,
+                price: 64,
+                desc: "ACE inhibitor for BP.",
+                uses: "Hypertension, Heart failure",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Ramipril 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Ramipril 5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 95,
+                discount: 15,
+                price: 81,
+                desc: "ACE inhibitor for BP.",
+                uses: "Hypertension, Heart failure",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Enalapril 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Enalapril 5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 55,
+                discount: 12,
+                price: 48,
+                desc: "ACE inhibitor for BP.",
+                uses: "Hypertension, Heart failure",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Lisinopril 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Lisinopril 5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 65,
+                discount: 12,
+                price: 57,
+                desc: "ACE inhibitor for BP.",
+                uses: "Hypertension, Heart failure",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Perindopril 4mg",
+                image: "💊",
+                prescription: true,
+                composition: "Perindopril 4mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 145,
+                discount: 12,
+                price: 128,
+                desc: "ACE inhibitor for BP.",
+                uses: "Hypertension, Coronary artery disease",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Diltiazem 30mg",
+                image: "💊",
+                prescription: true,
+                composition: "Diltiazem 30mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 55,
+                discount: 10,
+                price: 50,
+                desc: "Calcium channel blocker.",
+                uses: "Hypertension, Angina",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Nifedipine 10mg",
+                image: "💊",
+                prescription: true,
+                composition: "Nifedipine 10mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 45,
+                discount: 10,
+                price: 41,
+                desc: "Calcium channel blocker.",
+                uses: "Hypertension, Angina",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Prazosin 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Prazosin 5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 75,
+                discount: 12,
+                price: 66,
+                desc: "Alpha blocker for BP.",
+                uses: "Hypertension",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Clonidine 0.1mg",
+                image: "💊",
+                prescription: true,
+                composition: "Clonidine 0.1mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 55,
+                discount: 10,
+                price: 50,
+                desc: "Central alpha agonist.",
+                uses: "Hypertension",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Hydrochlorothiazide 12.5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Hydrochlorothiazide 12.5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 25,
+                discount: 10,
+                price: 23,
+                desc: "Thiazide diuretic.",
+                uses: "Hypertension, Edema",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Furosemide 40mg",
+                image: "💊",
+                prescription: true,
+                composition: "Furosemide 40mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 35,
+                discount: 12,
+                price: 31,
+                desc: "Loop diuretic.",
+                uses: "Edema, Heart failure",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Torsemide 10mg",
+                image: "💊",
+                prescription: true,
+                composition: "Torsemide 10mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 55,
+                discount: 12,
+                price: 48,
+                desc: "Loop diuretic.",
+                uses: "Edema, Heart failure",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Spironolactone 25mg",
+                image: "💊",
+                prescription: true,
+                composition: "Spironolactone 25mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 45,
+                discount: 10,
+                price: 41,
+                desc: "Potassium-sparing diuretic.",
+                uses: "Edema, Heart failure, Hypertension",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Spironolactone 50mg",
+                image: "💊",
+                prescription: true,
+                composition: "Spironolactone 50mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 75,
+                discount: 10,
+                price: 68,
+                desc: "Potassium-sparing diuretic.",
+                uses: "Edema, Heart failure, Hypertension",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Eplerenone 25mg",
+                image: "💊",
+                prescription: true,
+                composition: "Eplerenone 25mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 295,
+                discount: 10,
+                price: 266,
+                desc: "Selective aldosterone blocker.",
+                uses: "Heart failure, Post-MI",
+                storage: "Store below 25°C"
+            },
+            // Combination BP Medicines
+            {
+                name: "Amlong A",
+                image: "💊",
+                prescription: true,
+                composition: "Amlodipine 5mg + Atenolol 50mg",
+                unit: "Strip of 15",
+                quantity: "1 Strip",
+                mrp: 95,
+                discount: 15,
+                price: 81,
+                desc: "BP combination therapy.",
+                uses: "Hypertension",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Telma AM",
+                image: "💊",
+                prescription: true,
+                composition: "Telmisartan 40mg + Amlodipine 5mg",
+                unit: "Strip of 15",
+                quantity: "1 Strip",
+                mrp: 195,
+                discount: 12,
+                price: 172,
+                desc: "ARB + CCB combination.",
+                uses: "Hypertension",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Aztor 10",
+                image: "💊",
+                prescription: true,
+                composition: "Atorvastatin 10mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 95,
+                discount: 15,
+                price: 81,
+                desc: "Statin for cholesterol.",
+                uses: "High cholesterol, Heart protection",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Aztor 20",
+                image: "💊",
+                prescription: true,
+                composition: "Atorvastatin 20mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 145,
+                discount: 15,
+                price: 123,
+                desc: "Statin for cholesterol.",
+                uses: "High cholesterol, Heart protection",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Rosuvastatin 10mg",
+                image: "💊",
+                prescription: true,
+                composition: "Rosuvastatin 10mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 165,
+                discount: 15,
+                price: 140,
+                desc: "Statin for cholesterol.",
+                uses: "High cholesterol",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Rosuvastatin 20mg",
+                image: "💊",
+                prescription: true,
+                composition: "Rosuvastatin 20mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 225,
+                discount: 15,
+                price: 191,
+                desc: "Statin for cholesterol.",
+                uses: "High cholesterol",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Rosuvastatin 40mg",
+                image: "💊",
+                prescription: true,
+                composition: "Rosuvastatin 40mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 345,
+                discount: 12,
+                price: 304,
+                desc: "High-dose statin for cholesterol.",
+                uses: "High cholesterol, CV Risk Reduction",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Clopidogrel 75mg",
+                image: "💊",
+                prescription: true,
+                composition: "Clopidogrel 75mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 95,
+                discount: 15,
+                price: 81,
+                desc: "Antiplatelet medicine.",
+                uses: "Heart attack prevention, Stroke prevention",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Aspirin 75mg",
+                image: "💊",
+                prescription: true,
+                composition: "Aspirin 75mg",
+                unit: "Strip of 14",
+                quantity: "1 Strip",
+                mrp: 25,
+                discount: 10,
+                price: 23,
+                desc: "Low-dose aspirin for heart.",
+                uses: "Heart attack prevention",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Ecosprin 75mg",
+                image: "💊",
+                prescription: true,
+                composition: "Aspirin 75mg (Enteric coated)",
+                unit: "Strip of 14",
+                quantity: "1 Strip",
+                mrp: 28,
+                discount: 10,
+                price: 25,
+                desc: "Enteric coated aspirin.",
+                uses: "Heart attack prevention, Stroke prevention",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Ecosprin AV 75/10",
+                image: "💊",
+                prescription: true,
+                composition: "Aspirin 75mg + Atorvastatin 10mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 125,
+                discount: 12,
+                price: 110,
+                desc: "Heart protection combination.",
+                uses: "CV Risk Reduction",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Ecosprin AV 75/20",
+                image: "💊",
+                prescription: true,
+                composition: "Aspirin 75mg + Atorvastatin 20mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 165,
+                discount: 12,
+                price: 145,
+                desc: "Heart protection combination.",
+                uses: "CV Risk Reduction",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Clopitab A 75",
+                image: "💊",
+                prescription: true,
+                composition: "Clopidogrel 75mg + Aspirin 75mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 145,
+                discount: 12,
+                price: 128,
+                desc: "Dual antiplatelet therapy.",
+                uses: "Post-stent, Heart attack",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Prasugrel 10mg",
+                image: "💊",
+                prescription: true,
+                composition: "Prasugrel 10mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 295,
+                discount: 10,
+                price: 266,
+                desc: "Antiplatelet for stent patients.",
+                uses: "Post-stent, ACS",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Ticagrelor 90mg",
+                image: "💊",
+                prescription: true,
+                composition: "Ticagrelor 90mg",
+                unit: "Strip of 14",
+                quantity: "1 Strip",
+                mrp: 695,
+                discount: 10,
+                price: 626,
+                desc: "Antiplatelet for ACS.",
+                uses: "Acute coronary syndrome",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Warfarin 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Warfarin 5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 35,
+                discount: 10,
+                price: 32,
+                desc: "Blood thinner.",
+                uses: "Clot prevention, AF, DVT",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Rivaroxaban 10mg",
+                image: "💊",
+                prescription: true,
+                composition: "Rivaroxaban 10mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 445,
+                discount: 10,
+                price: 401,
+                desc: "Novel oral anticoagulant.",
+                uses: "DVT, PE, AF",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Rivaroxaban 20mg",
+                image: "💊",
+                prescription: true,
+                composition: "Rivaroxaban 20mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 595,
+                discount: 10,
+                price: 536,
+                desc: "Novel oral anticoagulant.",
+                uses: "DVT, PE, AF",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Dabigatran 110mg",
+                image: "💊",
+                prescription: true,
+                composition: "Dabigatran 110mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 495,
+                discount: 10,
+                price: 446,
+                desc: "Novel oral anticoagulant.",
+                uses: "AF, DVT prevention",
+                storage: "Store in original container"
+            },
+            {
+                name: "Apixaban 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Apixaban 5mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 545,
+                discount: 10,
+                price: 491,
+                desc: "Novel oral anticoagulant.",
+                uses: "AF, DVT, PE",
+                storage: "Store below 30°C"
+            },
+            // Heart Care Medicines
+            {
+                name: "Isosorbide Mononitrate 20mg",
+                image: "💊",
+                prescription: true,
+                composition: "Isosorbide Mononitrate 20mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 55,
+                discount: 10,
+                price: 50,
+                desc: "Nitrate for angina.",
+                uses: "Angina, Chest pain",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Sorbitrate 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Isosorbide Dinitrate 5mg",
+                unit: "Strip of 30",
+                quantity: "1 Strip",
+                mrp: 45,
+                discount: 10,
+                price: 41,
+                desc: "Sublingual nitrate.",
+                uses: "Acute angina",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Nitroglycerin Spray",
+                image: "💊",
+                prescription: true,
+                composition: "Nitroglycerin 0.4mg/spray",
+                unit: "Bottle",
+                quantity: "200 doses",
+                mrp: 295,
+                discount: 10,
+                price: 266,
+                desc: "Sublingual spray for angina.",
+                uses: "Acute angina attack",
+                storage: "Store at room temperature"
+            },
+            {
+                name: "Ranolazine 500mg",
+                image: "💊",
+                prescription: true,
+                composition: "Ranolazine 500mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 245,
+                discount: 12,
+                price: 216,
+                desc: "Anti-anginal medicine.",
+                uses: "Chronic angina",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Trimetazidine 35mg MR",
+                image: "💊",
+                prescription: true,
+                composition: "Trimetazidine 35mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 95,
+                discount: 12,
+                price: 84,
+                desc: "Metabolic anti-anginal.",
+                uses: "Angina, Heart protection",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Ivabradine 5mg",
+                image: "💊",
+                prescription: true,
+                composition: "Ivabradine 5mg",
+                unit: "Strip of 14",
+                quantity: "1 Strip",
+                mrp: 225,
+                discount: 10,
+                price: 203,
+                desc: "Heart rate reducing agent.",
+                uses: "Stable angina, Heart failure",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Digoxin 0.25mg",
+                image: "💊",
+                prescription: true,
+                composition: "Digoxin 0.25mg",
+                unit: "Strip of 10",
+                quantity: "1 Strip",
+                mrp: 25,
+                discount: 10,
+                price: 23,
+                desc: "Cardiac glycoside.",
+                uses: "Heart failure, AF",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Sacubitril/Valsartan 50mg",
+                image: "💊",
+                prescription: true,
+                composition: "Sacubitril 24mg + Valsartan 26mg",
+                unit: "Strip of 14",
+                quantity: "1 Strip",
+                mrp: 695,
+                discount: 10,
+                price: 626,
+                desc: "ARNI for heart failure.",
+                uses: "Heart failure with reduced EF",
+                storage: "Store below 25°C"
+            },
+            // Diabetic Care Products
+            {
+                name: "OneTouch Select Strips",
+                image: "📏",
+                prescription: false,
+                composition: "Glucose Test Strips",
+                unit: "Box",
+                quantity: "50 Strips",
+                mrp: 850,
+                discount: 12,
+                price: 748,
+                desc: "Blood glucose test strips.",
+                uses: "Blood Glucose Monitoring",
+                storage: "Store in dry place"
+            },
+            {
+                name: "Contour Plus Strips",
+                image: "📏",
+                prescription: false,
+                composition: "Glucose Test Strips",
+                unit: "Box",
+                quantity: "50 Strips",
+                mrp: 795,
+                discount: 12,
+                price: 700,
+                desc: "Blood glucose test strips.",
+                uses: "Blood Glucose Monitoring",
+                storage: "Store cap closed tightly"
+            },
+            {
+                name: "Glucometer Device",
+                image: "🩺",
+                prescription: false,
+                composition: "Blood Glucose Monitor",
+                unit: "Device",
+                quantity: "1 Unit",
+                mrp: 1495,
+                discount: 20,
+                price: 1196,
+                desc: "Digital blood glucose monitor.",
+                uses: "Home glucose testing",
+                storage: "Store in a dry place"
+            },
+            {
+                name: "Lancets (100 pack)",
+                image: "📌",
+                prescription: false,
+                composition: "Sterile Lancets",
+                unit: "Box",
+                quantity: "100 Lancets",
+                mrp: 195,
+                discount: 10,
+                price: 176,
+                desc: "Sterile lancets for blood sampling.",
+                uses: "Blood glucose testing",
+                storage: "Store in original packaging"
+            },
+            {
+                name: "Insulin Syringes (U-40)",
+                image: "💉",
+                prescription: false,
+                composition: "Insulin Syringes 1ml",
+                unit: "Pack",
+                quantity: "10 Syringes",
+                mrp: 95,
+                discount: 10,
+                price: 86,
+                desc: "Disposable insulin syringes.",
+                uses: "Insulin injection",
+                storage: "Store in a dry place"
+            },
+            {
+                name: "Insulin Syringes (U-100)",
+                image: "💉",
+                prescription: false,
+                composition: "Insulin Syringes 1ml",
+                unit: "Pack",
+                quantity: "10 Syringes",
+                mrp: 110,
+                discount: 10,
+                price: 99,
+                desc: "Disposable insulin syringes.",
+                uses: "Insulin injection",
+                storage: "Store in a dry place"
+            },
+            {
+                name: "BP Monitor Digital",
+                image: "🩺",
+                prescription: false,
+                composition: "Digital BP Monitor",
+                unit: "Device",
+                quantity: "1 Unit",
+                mrp: 1995,
+                discount: 15,
+                price: 1696,
+                desc: "Automatic digital BP monitor.",
+                uses: "Home BP monitoring",
+                storage: "Store in a dry place"
+            },
+            {
+                name: "Pulse Oximeter",
+                image: "🩺",
+                prescription: false,
+                composition: "Digital Pulse Oximeter",
+                unit: "Device",
+                quantity: "1 Unit",
+                mrp: 895,
+                discount: 20,
+                price: 716,
+                desc: "Fingertip pulse oximeter.",
+                uses: "SpO2 and pulse monitoring",
+                storage: "Store in a dry place"
+            },
+            {
+                name: "Diabetic Foot Cream",
+                image: "🧴",
+                prescription: false,
+                composition: "Urea + Aloe Vera",
+                unit: "Tube",
+                quantity: "100g",
+                mrp: 295,
+                discount: 10,
+                price: 266,
+                desc: "Foot care cream for diabetics.",
+                uses: "Dry feet, Cracked heels",
+                storage: "Store below 30°C"
+            },
+            {
+                name: "Sugar Free Natura",
+                image: "🍬",
+                prescription: false,
+                composition: "Sucralose",
+                unit: "Bottle",
+                quantity: "500 pellets",
+                mrp: 245,
+                discount: 10,
+                price: 221,
+                desc: "Zero calorie sweetener.",
+                uses: "Sugar substitute",
+                storage: "Store in a dry place"
+            },
+            {
+                name: "Sugar Free Gold",
+                image: "🍬",
+                prescription: false,
+                composition: "Aspartame",
+                unit: "Bottle",
+                quantity: "300 pellets",
+                mrp: 195,
+                discount: 10,
+                price: 176,
+                desc: "Low calorie sweetener.",
+                uses: "Sugar substitute",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Stevia Natural Sweetener",
+                image: "🌿",
+                prescription: false,
+                composition: "Stevia Extract",
+                unit: "Bottle",
+                quantity: "200g",
+                mrp: 345,
+                discount: 12,
+                price: 304,
+                desc: "Natural zero calorie sweetener.",
+                uses: "Natural sugar substitute",
+                storage: "Store in an airtight container"
+            },
+            {
+                name: "Diabetic Atta",
+                image: "🌾",
+                prescription: false,
+                composition: "Multi-grain low GI flour",
+                unit: "Pack",
+                quantity: "1 kg",
+                mrp: 145,
+                discount: 10,
+                price: 131,
+                desc: "Low glycemic index flour.",
+                uses: "Diabetic friendly flour",
+                storage: "Store in an airtight container"
+            },
+            {
+                name: "Diabetic Cookies",
+                image: "🍪",
+                prescription: false,
+                composition: "Sugar-free cookies",
+                unit: "Pack",
+                quantity: "200g",
+                mrp: 175,
+                discount: 10,
+                price: 158,
+                desc: "Sugar-free cookies for diabetics.",
+                uses: "Healthy snacking",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Omega-3 Fish Oil",
+                image: "💊",
+                prescription: false,
+                composition: "EPA 180mg + DHA 120mg",
+                unit: "Bottle",
+                quantity: "60 capsules",
+                mrp: 395,
+                discount: 15,
+                price: 336,
+                desc: "Heart health supplement.",
+                uses: "Heart health, Cholesterol",
+                storage: "Store in refrigerator"
+            },
+            {
+                name: "CoQ10 100mg",
+                image: "💊",
+                prescription: false,
+                composition: "Coenzyme Q10 100mg",
+                unit: "Bottle",
+                quantity: "30 capsules",
+                mrp: 495,
+                discount: 12,
+                price: 436,
+                desc: "Heart and energy supplement.",
+                uses: "Heart health, Energy",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Fenugreek Capsules",
+                image: "💊",
+                prescription: false,
+                composition: "Fenugreek Seed Extract 500mg",
+                unit: "Bottle",
+                quantity: "60 capsules",
+                mrp: 295,
+                discount: 12,
+                price: 260,
+                desc: "Natural blood sugar support.",
+                uses: "Blood sugar management",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Bitter Melon Extract",
+                image: "💊",
+                prescription: false,
+                composition: "Karela Extract 500mg",
+                unit: "Bottle",
+                quantity: "60 capsules",
+                mrp: 245,
+                discount: 12,
+                price: 216,
+                desc: "Natural diabetes support.",
+                uses: "Blood sugar management",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Cinnamon Extract",
+                image: "💊",
+                prescription: false,
+                composition: "Ceylon Cinnamon 500mg",
+                unit: "Bottle",
+                quantity: "60 capsules",
+                mrp: 275,
+                discount: 12,
+                price: 242,
+                desc: "Natural blood sugar support.",
+                uses: "Blood sugar, Metabolism",
+                storage: "Store in a cool, dry place"
+            },
+            {
+                name: "Chromium Picolinate",
+                image: "💊",
+                prescription: false,
+                composition: "Chromium 200mcg",
+                unit: "Bottle",
+                quantity: "60 tablets",
+                mrp: 245,
+                discount: 10,
+                price: 221,
+                desc: "Blood sugar support mineral.",
+                uses: "Glucose metabolism",
+                storage: "Store below 25°C"
+            },
+            {
+                name: "Alpha Lipoic Acid 300mg",
+                image: "💊",
+                prescription: false,
+                composition: "Alpha Lipoic Acid 300mg",
+                unit: "Bottle",
+                quantity: "30 capsules",
+                mrp: 445,
+                discount: 12,
+                price: 392,
+                desc: "Antioxidant for nerve health.",
+                uses: "Diabetic neuropathy, Antioxidant",
+                storage: "Store in refrigerator"
+            },
+            {
+                name: "Berberine 500mg",
+                image: "💊",
+                prescription: false,
+                composition: "Berberine HCl 500mg",
+                unit: "Bottle",
+                quantity: "60 capsules",
+                mrp: 595,
+                discount: 10,
+                price: 536,
+                desc: "Natural blood sugar support.",
+                uses: "Blood sugar, Cholesterol",
+                storage: "Store in a cool, dry place"
             }
         ]
     },
@@ -1780,95 +3396,150 @@ let cart = [];
 // Configuration
 const WHATSAPP_NUMBER = "919028670610";
 
-// Render Logic
+//* DOMContentLoaded - Main Initialization */
 document.addEventListener('DOMContentLoaded', () => {
     const mainContent = document.getElementById('main-content');
+    if (!mainContent) return; // Not a product page
 
-    // Render Categories & Products
-    storeData.forEach(category => {
-        const section = document.createElement('section');
-        section.classList.add('category-section');
-        section.id = category.id;
+    // Check what type of page we're on
+    const categoryId = document.body.dataset.category; // For category pages
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchQuery = urlParams.get('search') || '';
 
-        // Header
-        const header = document.createElement('div');
-        header.classList.add('category-header');
-        header.innerHTML = `
-            <span class="category-icon">${category.icon}</span>
-            <h3 class="category-title">${category.category}</h3>
+    // Determine which products to show
+    let productsToShow = [];
+    let pageTitle = 'All Products';
+
+    if (categoryId) {
+        // Category page - show only products from this category
+        const category = storeData.find(cat => cat.id === categoryId);
+        if (category) {
+            productsToShow = category.products.map(p => ({ ...p, categoryName: category.category, categoryIcon: category.icon }));
+            pageTitle = category.category;
+        }
+    } else {
+        // Products page - show all products
+        storeData.forEach(cat => {
+            cat.products.forEach(product => {
+                productsToShow.push({ ...product, categoryName: cat.category, categoryIcon: cat.icon });
+            });
+        });
+    }
+
+    // Apply search filter if present
+    if (searchQuery) {
+        const term = searchQuery.toLowerCase();
+        productsToShow = productsToShow.filter(p =>
+            p.name.toLowerCase().includes(term) ||
+            p.composition.toLowerCase().includes(term) ||
+            p.uses.toLowerCase().includes(term)
+        );
+        pageTitle = `Search Results for "${searchQuery}"`;
+
+        // Update page title and count
+        const pageTitleEl = document.getElementById('page-title');
+        const productCountEl = document.getElementById('product-count');
+        if (pageTitleEl) pageTitleEl.textContent = pageTitle;
+        if (productCountEl) productCountEl.textContent = `Found ${productsToShow.length} products`;
+
+        // Fill search inputs with query
+        const searchInput = document.getElementById('search-input');
+        const searchInputDesktop = document.getElementById('search-input-desktop');
+        if (searchInput) searchInput.value = searchQuery;
+        if (searchInputDesktop) searchInputDesktop.value = searchQuery;
+    }
+
+    // Render products
+    if (productsToShow.length === 0) {
+        mainContent.innerHTML = `
+            <div class="no-results">
+                <i class="fas fa-search"></i>
+                <h3>No products found</h3>
+                <p>Try searching with different keywords</p>
+                <a href="products.html" class="btn-primary">View All Products</a>
+            </div>
         `;
-        section.appendChild(header);
-
-        // Product Grid
+    } else {
+        // Create product grid
         const grid = document.createElement('div');
         grid.classList.add('product-grid');
 
-        category.products.forEach(product => {
+        productsToShow.forEach(product => {
             const card = createProductCard(product);
             grid.appendChild(card);
         });
 
-        section.appendChild(grid);
-        mainContent.appendChild(section);
-    });
+        mainContent.appendChild(grid);
+    }
 
     // Cart Modal Logic
     setupCartListeners();
 
-    // Search Listeners - Both Mobile and Desktop
+    // Search Listeners - Redirect to products page with search query
     const searchInput = document.getElementById('search-input');
     const searchBtn = document.getElementById('search-btn');
     const searchInputDesktop = document.getElementById('search-input-desktop');
     const searchBtnDesktop = document.getElementById('search-btn-desktop');
 
+    function performSearch(query) {
+        const trimmedQuery = query.trim();
+        if (trimmedQuery) {
+            window.location.href = `products.html?search=${encodeURIComponent(trimmedQuery)}`;
+        } else {
+            window.location.href = 'products.html';
+        }
+    }
+
     // Mobile search
-    searchInput.addEventListener('input', (e) => {
-        filterProducts(e.target.value);
-        // Sync desktop search
-        if (searchInputDesktop) searchInputDesktop.value = e.target.value;
-    });
-    searchBtn.addEventListener('click', () => filterProducts(searchInput.value));
+    if (searchInput) {
+        searchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') performSearch(searchInput.value);
+        });
+    }
+    if (searchBtn) {
+        searchBtn.addEventListener('click', () => performSearch(searchInput?.value || ''));
+    }
 
     // Desktop search
     if (searchInputDesktop) {
-        searchInputDesktop.addEventListener('input', (e) => {
-            filterProducts(e.target.value);
-            // Sync mobile search
-            searchInput.value = e.target.value;
+        searchInputDesktop.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') performSearch(searchInputDesktop.value);
         });
     }
     if (searchBtnDesktop) {
-        searchBtnDesktop.addEventListener('click', () => filterProducts(searchInputDesktop.value));
+        searchBtnDesktop.addEventListener('click', () => performSearch(searchInputDesktop?.value || ''));
     }
-
-    // Initialize - show all products on page load
-    filterProducts('');
 
     // Mobile Menu
     const menuBtn = document.getElementById('mobile-menu-btn');
     const mobileNav = document.getElementById('mobile-nav');
     const navLinks = document.querySelectorAll('.nav-link');
 
-    menuBtn.addEventListener('click', () => {
-        mobileNav.classList.toggle('active');
-        const icon = menuBtn.querySelector('i');
-        if (mobileNav.classList.contains('active')) {
-            icon.classList.remove('fa-bars');
-            icon.classList.add('fa-times');
-        } else {
-            icon.classList.remove('fa-times');
-            icon.classList.add('fa-bars');
-        }
-    });
-
-    // Close menu when link clicked
-    navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            mobileNav.classList.remove('active');
-            menuBtn.querySelector('i').classList.remove('fa-times');
-            menuBtn.querySelector('i').classList.add('fa-bars');
+    if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('active');
+            const icon = menuBtn.querySelector('i');
+            if (mobileNav.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
         });
-    });
+
+        // Close menu when link clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNav.classList.remove('active');
+                const icon = menuBtn.querySelector('i');
+                if (icon) {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+        });
+    }
 });
 
 function filterProducts(query) {

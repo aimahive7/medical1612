@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respiratory Care - SHOBHA MEDICAL STORE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body data-category="ayurveda">
+    <header class="header">
+        <div class="container header-main">
+            <a href="index.html" class="logo-section">
+                <h1>SHOBHA MEDICAL STORE</h1>
+                <p class="subtitle">Your Trusted Medical Partner</p>
+            </a>
+            <div class="search-bar desktop-search"><input type="text" id="search-input-desktop"
+                    placeholder="Search for medicines..."><button id="search-btn-desktop"><i
+                        class="fas fa-search"></i></button></div>
+            <div class="header-actions">
+                <div class="cart-icon-container" id="cart-btn"><i class="fas fa-shopping-cart"></i><span
+                        class="cart-badge" id="cart-count">0</span></div>
+                <a href="https://wa.me/919028670610" target="_blank" class="whatsapp-btn-header desktop-only"><i
+                        class="fab fa-whatsapp"></i> Order on WhatsApp</a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+        <div class="container mobile-search-row">
+            <div class="search-bar"><input type="text" id="search-input" placeholder="Search for medicines..."><button
+                    id="search-btn"><i class="fas fa-search"></i></button></div>
+        </div>
+        <nav class="desktop-nav">
+            <div class="container nav-container">
+                <a href="otc.html" class="nav-btn">💊 OTC Medicines</a><a href="prescription.html" class="nav-btn">📋
+                    Prescription</a><a href="cold.html" class="nav-btn">🤧 Cold & Cough</a><a href="diabetes.html"
+                    class="nav-btn">🩸 Diabetes & BP</a><a href="skin.html" class="nav-btn">✨ Skin Care</a><a
+                    href="respiratory.html" class="nav-btn active">🌬️ Respiratory</a><a href="surgical.html"
+                    class="nav-btn">🏥 Surgical</a><a href="baby.html" class="nav-btn">👶 Baby Care</a><a
+                    href="supplements.html" class="nav-btn">💪 Supplements</a>
+            </div>
+        </nav>
+        <nav class="mobile-nav" id="mobile-nav">
+            <ul>
+                <li><a href="otc.html" class="nav-link">💊 OTC Medicines</a></li>
+                <li><a href="prescription.html" class="nav-link">📋 Prescription</a></li>
+                <li><a href="cold.html" class="nav-link">🤧 Cold & Cough</a></li>
+                <li><a href="diabetes.html" class="nav-link">🩸 Diabetes & BP</a></li>
+                <li><a href="skin.html" class="nav-link">✨ Skin Care</a></li>
+                <li><a href="respiratory.html" class="nav-link active">🌬️ Respiratory</a></li>
+                <li><a href="surgical.html" class="nav-link">🏥 Surgical</a></li>
+                <li><a href="baby.html" class="nav-link">👶 Baby Care</a></li>
+                <li><a href="supplements.html" class="nav-link">💪 Supplements</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="page-header category-page-header">
+        <div class="container">
+            <div class="page-header-content"><span class="category-icon-large">🌬️</span>
+                <div>
+                    <h2>Respiratory Care</h2>
+                    <p>Inhalers, nebulizers and respiratory medicines</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main id="main-content" class="container"></main>
+    <a href="https://wa.me/919028670610" target="_blank" class="floating-whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>SHOBHA MEDICAL STORE</h3>
+                <p><i class="fas fa-phone"></i> +91 9028670610</p>
+            </div>
+            <div class="disclaimer">
+                <p><em>Medicines will be dispensed only against valid prescription where required.</em></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Shobha Medical Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <div class="cart-modal-overlay" id="cart-modal">
+        <div class="cart-modal">
+            <div class="cart-header">
+                <h3>Your Cart</h3><button class="close-cart" id="close-cart">&times;</button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <div class="empty-cart-msg">Your cart is empty</div>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-customer-info"><input type="text" id="customer-name"
+                        placeholder="Enter Your Name (Required)" class="customer-name-input"></div>
+                <div class="cart-total"><span>Total:</span><span id="cart-total-price">₹0</span></div><button
+                    class="checkout-btn" id="checkout-btn"><i class="fab fa-whatsapp"></i> Checkout on WhatsApp</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
