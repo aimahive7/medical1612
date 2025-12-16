@@ -21,14 +21,17 @@
 
     <!-- Header -->
     <header class="header">
-        <div class="container header-container">
+        <!-- Main Header Row: Logo + Search + Cart + WhatsApp (all in one row on desktop) -->
+        <div class="container header-main">
             <div class="logo-section">
                 <h1>SHOBHA MEDICAL STORE</h1>
                 <p class="subtitle">Your Trusted Medical Partner</p>
             </div>
-            <div class="search-bar">
-                <input type="text" id="search-input" placeholder="Search for medicines...">
-                <button id="search-btn"><i class="fas fa-search"></i></button>
+
+            <!-- Search Bar (visible on desktop in header row) -->
+            <div class="search-bar desktop-search">
+                <input type="text" id="search-input-desktop" placeholder="Search for medicines...">
+                <button id="search-btn-desktop"><i class="fas fa-search"></i></button>
             </div>
 
             <div class="header-actions">
@@ -45,18 +48,41 @@
             </div>
         </div>
 
-        <!-- Mobile Navigation -->
+        <!-- Mobile Search Row (only visible on mobile) -->
+        <div class="container mobile-search-row">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for medicines...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <!-- Desktop Navigation Bar with All Categories -->
+        <nav class="desktop-nav">
+            <div class="container nav-container">
+                <a href="#otc" class="nav-btn">💊 OTC Medicines</a>
+                <a href="#rx" class="nav-btn">📋 Prescription</a>
+                <a href="#cold" class="nav-btn">🤧 Cold & Cough</a>
+                <a href="#diabetes" class="nav-btn">🩸 Diabetes & BP</a>
+                <a href="#skin" class="nav-btn">✨ Skin Care</a>
+                <a href="#ayurveda" class="nav-btn">🌬️ Respiratory</a>
+                <a href="#surgical" class="nav-btn">🏥 Surgical</a>
+                <a href="#baby" class="nav-btn">👶 Baby Care</a>
+                <a href="#health" class="nav-btn">💪 Supplements</a>
+            </div>
+        </nav>
+
+        <!-- Mobile Navigation Dropdown -->
         <nav class="mobile-nav" id="mobile-nav">
             <ul>
-                <li><a href="#otc" class="nav-link">OTC Medicines</a></li>
-                <li><a href="#rx" class="nav-link">Prescription</a></li>
-                <li><a href="#cold" class="nav-link">Cold & Cough</a></li>
-                <li><a href="#diabetes" class="nav-link">Diabetes</a></li>
-                <li><a href="#skin" class="nav-link">Skin Care</a></li>
-                <li><a href="#ayurveda" class="nav-link">Ayurveda</a></li>
-                <li><a href="#surgical" class="nav-link">Surgical</a></li>
-                <li><a href="#baby" class="nav-link">Baby Care</a></li>
-                <li><a href="#health" class="nav-link">Supplements</a></li>
+                <li><a href="#otc" class="nav-link">💊 OTC Medicines</a></li>
+                <li><a href="#rx" class="nav-link">📋 Prescription</a></li>
+                <li><a href="#cold" class="nav-link">🤧 Cold & Cough</a></li>
+                <li><a href="#diabetes" class="nav-link">🩸 Diabetes & BP</a></li>
+                <li><a href="#skin" class="nav-link">✨ Skin Care</a></li>
+                <li><a href="#ayurveda" class="nav-link">🌬️ Respiratory</a></li>
+                <li><a href="#surgical" class="nav-link">🏥 Surgical</a></li>
+                <li><a href="#baby" class="nav-link">👶 Baby Care</a></li>
+                <li><a href="#health" class="nav-link">💪 Supplements</a></li>
             </ul>
         </nav>
     </header>
